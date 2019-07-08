@@ -9,11 +9,14 @@
   "dependencies": {
     "truffle-assertions": "^0.8.2",
     "assertion-error": "^1.1.0",
-    "ganache-time-traveler": "^1.0.0"
+    "ganache-time-traveler": "github:ejwessel/GanacheTimeTraveler"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "truffle migrate",
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "ganache": "ganache-cli -d"
   },
   "author": "",
   "license": "ISC"
