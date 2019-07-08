@@ -6,7 +6,7 @@ contract StatefulContract {
   /**
   * setUintData will set the uint data to a new value
   */
-  function setUintData(uint256 newUintData) constant returns (bool){
+  function setUintData(uint256 newUintData) external view returns (bool){
       uintData = newUintData;
   }
 }
